@@ -1,4 +1,4 @@
-# Installation Gesichtserkennung
+# Installation SBB Fahrplan
 
 ## Manuelle Installation
 
@@ -24,3 +24,9 @@ In der Datei ganz am Ende der Liste (nach dem letzten `},` ) einfügen
 	}
 },
 ```
+
+4. Nano schliessen mit `CTRL+O` und `CTRL+X`
+
+5. Mirror starten zum testen 
+- `cd ~/MagicMirror`
+- `npm run start`
