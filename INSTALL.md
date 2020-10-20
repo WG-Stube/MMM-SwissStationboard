@@ -6,7 +6,7 @@
 `cd ~/MagicMirror/modules`
 
 2. Erweiterung herunterladen und installieren
-`git clone https://github.com/vanhoekd/MMM-SwissStationboard`
+`git clone https://github.com/WG-Stube/MMM-SwissStationboard`
 
 3. Modul einrichten
 `nano ~/MagicMirror/config/config.js`
@@ -14,7 +14,7 @@ In der Datei ganz am Ende der Liste (nach dem letzten `},` ) einfügen
 ```js
 {
 	module: 'MMM-SwissStationboard',
-	position: 'bottom_left',
+	position: 'bottom_bar',
 	header: 'Zugverbindungen',
 	config: {
 		stop: 'Marthalen', // Bahnhof
